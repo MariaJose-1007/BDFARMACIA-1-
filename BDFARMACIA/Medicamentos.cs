@@ -76,6 +76,12 @@ namespace BDFARMACIA
                 MessageBox.Show("Ingrese el codigo de barras");
                 return;
             }
+            else if (textBoxcodigob.Text.Trim().Length != 12 || !textBoxcodigob.Text.Trim().All(char.IsDigit))
+            {
+                MessageBox.Show("El código de barras debe tener exactamente 12 dígitos numéricos.");
+                return;
+            }
+
 
             if (textBoxproducto.Text.Trim() == String.Empty)
             {

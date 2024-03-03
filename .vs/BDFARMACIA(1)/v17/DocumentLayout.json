@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Medicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\INICIARSESION.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Factura.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Medicamentos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\MenuPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\INICIARSESION.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\INICIARSESION.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\INICIARSESION.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\BDFARMACIA.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\BDFARMACIA.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,20 +39,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Clientes.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Factura.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\INICIARSESION.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Factura.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Medicamentos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BDFARMACIA\\Medicamentos.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,27 +77,45 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Factura.resx",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.resx",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Factura.resx",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.resx",
-              "RelativeToolTip": "BDFARMACIA\\Factura.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-02-28T13:59:07.037Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Medicamentos.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Medicamentos.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.cs",
-              "RelativeToolTip": "BDFARMACIA\\Medicamentos.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFMAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.cs",
+              "RelativeToolTip": "BDFARMACIA\\MenuPrincipal.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:59:00.414Z"
+              "WhenOpened": "2024-02-28T13:58:54.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "INICIARSESION.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\INICIARSESION.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.cs",
+              "RelativeToolTip": "BDFARMACIA\\INICIARSESION.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T19:36:19.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Conexion.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
+              "RelativeToolTip": "BDFARMACIA\\Conexion.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:58:17.857Z"
             },
             {
               "$type": "Document",
@@ -120,7 +130,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Medicamentos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.Designer.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Medicamentos.Designer.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.Designer.cs",
+              "RelativeToolTip": "BDFARMACIA\\Medicamentos.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:58:58.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Medicamentos.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Medicamentos.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.cs",
+              "RelativeToolTip": "BDFARMACIA\\Medicamentos.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:59:00.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Clientes.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.cs",
+              "RelativeToolTip": "BDFARMACIA\\Clientes.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:59:16.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Factura.resx",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.resx",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Factura.resx",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Factura.resx",
+              "RelativeToolTip": "BDFARMACIA\\Factura.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-28T13:59:07.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Clientes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.Designer.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Clientes.Designer.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.Designer.cs",
+              "RelativeToolTip": "BDFARMACIA\\Clientes.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T21:31:07.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Clientes.resx",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.resx",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Clientes.resx",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.resx",
+              "RelativeToolTip": "BDFARMACIA\\Clientes.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-26T19:36:00.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "INICIARSESION.Designer.cs",
               "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.Designer.cs",
               "RelativeDocumentMoniker": "BDFARMACIA\\INICIARSESION.Designer.cs",
@@ -129,79 +211,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T19:36:21.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.cs",
-              "RelativeToolTip": "BDFARMACIA\\MenuPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:58:54.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "INICIARSESION.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\INICIARSESION.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\INICIARSESION.cs",
-              "RelativeToolTip": "BDFARMACIA\\INICIARSESION.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T19:36:19.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Conexion.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
-              "RelativeToolTip": "BDFARMACIA\\Conexion.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAjwCoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:58:17.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Clientes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.Designer.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Clientes.Designer.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.Designer.cs",
-              "RelativeToolTip": "BDFARMACIA\\Clientes.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:59:15.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Clientes.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.cs",
-              "RelativeToolTip": "BDFARMACIA\\Clientes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:59:16.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BDFARMACIA.csproj",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\BDFARMACIA.csproj",
-              "RelativeDocumentMoniker": "BDFARMACIA\\BDFARMACIA.csproj",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\BDFARMACIA.csproj",
-              "RelativeToolTip": "BDFARMACIA\\BDFARMACIA.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-28T13:59:19.379Z"
             },
             {
               "$type": "Document",
@@ -229,41 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Clientes.resx",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.resx",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Clientes.resx",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Clientes.resx",
-              "RelativeToolTip": "BDFARMACIA\\Clientes.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-02-26T19:36:00.044Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Medicamentos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.Designer.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Medicamentos.Designer.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.Designer.cs",
-              "RelativeToolTip": "BDFARMACIA\\Medicamentos.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:58:58.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Medicamentos.resx",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.resx",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Medicamentos.resx",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.resx",
-              "RelativeToolTip": "BDFARMACIA\\Medicamentos.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-02-28T13:58:56.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "MenuPrincipal.Designer.cs",
               "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.Designer.cs",
               "RelativeDocumentMoniker": "BDFARMACIA\\MenuPrincipal.Designer.cs",
@@ -275,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "MenuPrincipal.resx",
               "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\MenuPrincipal.resx",
               "RelativeDocumentMoniker": "BDFARMACIA\\MenuPrincipal.resx",

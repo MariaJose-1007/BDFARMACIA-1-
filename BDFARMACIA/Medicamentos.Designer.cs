@@ -39,6 +39,8 @@
             this.comboBoxproductos = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxid = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.buttonborarr = new System.Windows.Forms.Button();
             this.buttonguardar = new System.Windows.Forms.Button();
@@ -64,8 +66,6 @@
             this.buttonconsultaredit = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBox1productosedit = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.Consultar.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -93,7 +93,7 @@
             this.Consultar.Controls.Add(this.tabPage2);
             this.Consultar.Controls.Add(this.tabPage3);
             this.Consultar.Location = new System.Drawing.Point(37, 97);
-            this.Consultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Consultar.Margin = new System.Windows.Forms.Padding(4);
             this.Consultar.Name = "Consultar";
             this.Consultar.SelectedIndex = 0;
             this.Consultar.Size = new System.Drawing.Size(971, 418);
@@ -109,9 +109,9 @@
             this.tabPage1.Controls.Add(this.comboBoxproductos);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(963, 389);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Consultar";
@@ -120,7 +120,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(33, 22);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(156, 89);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -132,7 +132,7 @@
             this.buttonborrar.BackColor = System.Drawing.Color.Pink;
             this.buttonborrar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonborrar.Location = new System.Drawing.Point(817, 38);
-            this.buttonborrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonborrar.Margin = new System.Windows.Forms.Padding(4);
             this.buttonborrar.Name = "buttonborrar";
             this.buttonborrar.Size = new System.Drawing.Size(104, 46);
             this.buttonborrar.TabIndex = 4;
@@ -145,7 +145,7 @@
             this.buttonconsultar.BackColor = System.Drawing.Color.Pink;
             this.buttonconsultar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonconsultar.Location = new System.Drawing.Point(705, 38);
-            this.buttonconsultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonconsultar.Margin = new System.Windows.Forms.Padding(4);
             this.buttonconsultar.Name = "buttonconsultar";
             this.buttonconsultar.Size = new System.Drawing.Size(104, 46);
             this.buttonconsultar.TabIndex = 3;
@@ -157,7 +157,7 @@
             // 
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(33, 118);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(887, 232);
             this.listView1.TabIndex = 2;
@@ -167,7 +167,7 @@
             // 
             this.comboBoxproductos.FormattingEnabled = true;
             this.comboBoxproductos.Location = new System.Drawing.Point(320, 49);
-            this.comboBoxproductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxproductos.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxproductos.Name = "comboBoxproductos";
             this.comboBoxproductos.Size = new System.Drawing.Size(376, 24);
             this.comboBoxproductos.TabIndex = 1;
@@ -187,7 +187,7 @@
             // 
             this.tabPage2.BackColor = System.Drawing.Color.PaleTurquoise;
             this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Controls.Add(this.textBoxid);
             this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.buttonborarr);
             this.tabPage2.Controls.Add(this.buttonguardar);
@@ -200,18 +200,39 @@
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(963, 389);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Agregar";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(53, 29);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 18);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "id";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // textBoxid
+            // 
+            this.textBoxid.Location = new System.Drawing.Point(296, 29);
+            this.textBoxid.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxid.Name = "textBoxid";
+            this.textBoxid.Size = new System.Drawing.Size(220, 22);
+            this.textBoxid.TabIndex = 13;
+            this.textBoxid.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(608, 60);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(275, 194);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -223,7 +244,7 @@
             this.buttonborarr.BackColor = System.Drawing.Color.Pink;
             this.buttonborarr.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonborarr.Location = new System.Drawing.Point(317, 283);
-            this.buttonborarr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonborarr.Margin = new System.Windows.Forms.Padding(4);
             this.buttonborarr.Name = "buttonborarr";
             this.buttonborarr.Size = new System.Drawing.Size(144, 50);
             this.buttonborarr.TabIndex = 11;
@@ -236,7 +257,7 @@
             this.buttonguardar.BackColor = System.Drawing.Color.Pink;
             this.buttonguardar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonguardar.Location = new System.Drawing.Point(141, 283);
-            this.buttonguardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonguardar.Margin = new System.Windows.Forms.Padding(4);
             this.buttonguardar.Name = "buttonguardar";
             this.buttonguardar.Size = new System.Drawing.Size(144, 50);
             this.buttonguardar.TabIndex = 10;
@@ -247,7 +268,7 @@
             // textBoxcantidad
             // 
             this.textBoxcantidad.Location = new System.Drawing.Point(296, 214);
-            this.textBoxcantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxcantidad.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxcantidad.Name = "textBoxcantidad";
             this.textBoxcantidad.Size = new System.Drawing.Size(220, 22);
             this.textBoxcantidad.TabIndex = 9;
@@ -255,7 +276,7 @@
             // textBoxprecio
             // 
             this.textBoxprecio.Location = new System.Drawing.Point(296, 171);
-            this.textBoxprecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxprecio.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxprecio.Name = "textBoxprecio";
             this.textBoxprecio.Size = new System.Drawing.Size(220, 22);
             this.textBoxprecio.TabIndex = 8;
@@ -263,7 +284,7 @@
             // textBoxproducto
             // 
             this.textBoxproducto.Location = new System.Drawing.Point(296, 122);
-            this.textBoxproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxproducto.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxproducto.Name = "textBoxproducto";
             this.textBoxproducto.Size = new System.Drawing.Size(220, 22);
             this.textBoxproducto.TabIndex = 7;
@@ -271,7 +292,7 @@
             // textBoxcodigob
             // 
             this.textBoxcodigob.Location = new System.Drawing.Point(296, 71);
-            this.textBoxcodigob.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxcodigob.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxcodigob.Name = "textBoxcodigob";
             this.textBoxcodigob.Size = new System.Drawing.Size(220, 22);
             this.textBoxcodigob.TabIndex = 6;
@@ -319,6 +340,7 @@
             this.label4.Size = new System.Drawing.Size(147, 18);
             this.label4.TabIndex = 1;
             this.label4.Text = "Codigo de Barras";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // tabPage3
             // 
@@ -337,9 +359,9 @@
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.comboBox1productosedit);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage3.Size = new System.Drawing.Size(963, 389);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Editar";
@@ -348,7 +370,7 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(684, 75);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(208, 238);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -360,7 +382,7 @@
             this.buttonguardarcambios.BackColor = System.Drawing.Color.Pink;
             this.buttonguardarcambios.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonguardarcambios.Location = new System.Drawing.Point(369, 346);
-            this.buttonguardarcambios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonguardarcambios.Margin = new System.Windows.Forms.Padding(4);
             this.buttonguardarcambios.Name = "buttonguardarcambios";
             this.buttonguardarcambios.Size = new System.Drawing.Size(216, 33);
             this.buttonguardarcambios.TabIndex = 14;
@@ -371,7 +393,7 @@
             // textBox5cantidadedit
             // 
             this.textBox5cantidadedit.Location = new System.Drawing.Point(277, 293);
-            this.textBox5cantidadedit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5cantidadedit.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5cantidadedit.Name = "textBox5cantidadedit";
             this.textBox5cantidadedit.Size = new System.Drawing.Size(267, 22);
             this.textBox5cantidadedit.TabIndex = 13;
@@ -379,7 +401,7 @@
             // textBoxprecioedit
             // 
             this.textBoxprecioedit.Location = new System.Drawing.Point(277, 247);
-            this.textBoxprecioedit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxprecioedit.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxprecioedit.Name = "textBoxprecioedit";
             this.textBoxprecioedit.Size = new System.Drawing.Size(267, 22);
             this.textBoxprecioedit.TabIndex = 12;
@@ -387,7 +409,7 @@
             // textBoxproductoedit
             // 
             this.textBoxproductoedit.Location = new System.Drawing.Point(277, 201);
-            this.textBoxproductoedit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxproductoedit.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxproductoedit.Name = "textBoxproductoedit";
             this.textBoxproductoedit.Size = new System.Drawing.Size(267, 22);
             this.textBoxproductoedit.TabIndex = 11;
@@ -395,7 +417,7 @@
             // textBoxcodigoedit
             // 
             this.textBoxcodigoedit.Location = new System.Drawing.Point(277, 145);
-            this.textBoxcodigoedit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxcodigoedit.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxcodigoedit.Name = "textBoxcodigoedit";
             this.textBoxcodigoedit.Size = new System.Drawing.Size(267, 22);
             this.textBoxcodigoedit.TabIndex = 10;
@@ -449,7 +471,7 @@
             this.buttonconsultaredit.BackColor = System.Drawing.Color.Pink;
             this.buttonconsultaredit.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonconsultaredit.Location = new System.Drawing.Point(167, 346);
-            this.buttonconsultaredit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonconsultaredit.Margin = new System.Windows.Forms.Padding(4);
             this.buttonconsultaredit.Name = "buttonconsultaredit";
             this.buttonconsultaredit.Size = new System.Drawing.Size(148, 33);
             this.buttonconsultaredit.TabIndex = 2;
@@ -472,30 +494,10 @@
             // 
             this.comboBox1productosedit.FormattingEnabled = true;
             this.comboBox1productosedit.Location = new System.Drawing.Point(277, 50);
-            this.comboBox1productosedit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1productosedit.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1productosedit.Name = "comboBox1productosedit";
             this.comboBox1productosedit.Size = new System.Drawing.Size(215, 24);
             this.comboBox1productosedit.TabIndex = 0;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(296, 29);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 22);
-            this.textBox1.TabIndex = 13;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(53, 29);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 18);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Codigo de Barras";
-            
             // 
             // Medicamentos
             // 
@@ -505,7 +507,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.Consultar);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Medicamentos";
             this.Text = "Medicamentos";
             this.Load += new System.EventHandler(this.Medicamentos_Load);
@@ -562,6 +564,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxid;
     }
 }

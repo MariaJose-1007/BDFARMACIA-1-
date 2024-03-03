@@ -71,6 +71,11 @@ namespace BDFARMACIA
             }
 
 
+            if (textBoxid.Text.Trim() == String.Empty)
+            {
+                MessageBox.Show("Ingrese el id del producto");
+                return;
+            }
             if (textBoxcodigob.Text.Trim() == String.Empty)
             {
                 MessageBox.Show("Ingrese el codigo de barras");
@@ -227,6 +232,19 @@ namespace BDFARMACIA
             limpiar();
         }
 
-      
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

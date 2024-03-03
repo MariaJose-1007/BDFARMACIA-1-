@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BDFARMACIA"
+    "\\BDFARMACIA",
+    "\\BDFARMACIA\\bin",
+    "\\BDFARMACIA\\obj"
   ],
-  "SelectedNode": "\\BDFARMACIA\\Conexion.cs",
+  "SelectedNode": "\\BDFARMACIA\\Medicamentos.cs",
   "PreviewInSolutionExplorer": false
 }

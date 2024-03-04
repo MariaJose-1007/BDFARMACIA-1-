@@ -177,7 +177,7 @@ namespace BDFARMACIA
             
         {
             String sql = String.Format("update productos set Codigo_Barra='{0}', Producto='{1}', Precio='{2}', Cantidad_Existencia='{3}' where id='{4}'",
-                          textBoxcodigoedit.Text.Trim(), textBoxproductoedit.Text.Trim(), textBoxprecioedit.Text.Trim(), textBox5cantidadedit.Text.Trim(), comboBox1productosedit.SelectedValue);
+                         textBoxid.Text.Trim(), textBoxcodigoedit.Text.Trim(), textBoxproductoedit.Text.Trim(), textBoxprecioedit.Text.Trim(), textBox5cantidadedit.Text.Trim(), comboBox1productosedit.SelectedValue);
             try
             {
 

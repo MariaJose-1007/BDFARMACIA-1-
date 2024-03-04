@@ -64,7 +64,7 @@ namespace BDFARMACIA
 
         public void guardar()
         {
-            if ( textBoxcodigob.Text.Trim() == String.Empty && textBoxproducto.Text.Trim() == String.Empty
+            if (textBoxid.Text.Trim() == String.Empty && textBoxcodigob.Text.Trim() == String.Empty && textBoxproducto.Text.Trim() == String.Empty
                 && textBoxprecio.Text.Trim() == String.Empty && textBoxcantidad.Text.Trim() == String.Empty)
             {
                 MessageBox.Show("!ERROR rellene los campos !");

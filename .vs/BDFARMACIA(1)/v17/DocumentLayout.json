@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -84,6 +84,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T13:58:17.857Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -144,7 +148,7 @@
               "RelativeDocumentMoniker": "BDFARMACIA\\Medicamentos.cs",
               "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.cs",
               "RelativeToolTip": "BDFARMACIA\\Medicamentos.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAADEAAAAmAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAIwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T13:59:00.414Z",
               "EditorCaption": ""

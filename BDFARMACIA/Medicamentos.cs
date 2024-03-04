@@ -107,9 +107,9 @@ namespace BDFARMACIA
             }
 
 
-            String sql = String.Format("insert into productos(Codigo_Barra,Producto,Precio,Cantidad_Existencia)" +
-                          " values('{0}','{1}','{2}','{3}')",
-                           textBoxcodigob.Text.Trim(), textBoxproducto.Text.Trim(), textBoxprecio.Text.Trim(), textBoxcantidad.Text.Trim());
+            String sql = String.Format("insert into productos(id,Codigo_Barra,Producto,Precio,Cantidad_Existencia)" +
+                          " values('{0}','{1}','{2}','{3}','{4}')",
+                          textBoxid.Text.Trim(), textBoxcodigob.Text.Trim(), textBoxproducto.Text.Trim(), textBoxprecio.Text.Trim(), textBoxcantidad.Text.Trim());
 
             try
             {
@@ -138,7 +138,7 @@ namespace BDFARMACIA
             DataRow fila = conMysql.getRow(sql);
             if (fila != null)
             {
-                
+                textBoxid.Text )= fila["id"].ToString();
                 textBoxcodigoedit.Text = fila["Codigo_Barra"].ToString();
                 textBoxproductoedit.Text = fila["Producto"].ToString();
                 textBoxprecioedit.Text = fila["Precio"].ToString();

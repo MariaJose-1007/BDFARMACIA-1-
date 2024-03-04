@@ -3,7 +3,8 @@
     "",
     "\\BDFARMACIA",
     "\\BDFARMACIA\\bin",
-    "\\BDFARMACIA\\obj"
+    "\\BDFARMACIA\\obj",
+    "\\BDFARMACIA\\Properties"
   ],
   "SelectedNode": "\\BDFARMACIA\\Medicamentos.cs",
   "PreviewInSolutionExplorer": false

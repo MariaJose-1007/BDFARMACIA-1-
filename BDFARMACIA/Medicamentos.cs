@@ -45,12 +45,13 @@ namespace BDFARMACIA
 
         public void limpiar()
         {
-           
+            textBoxid.Text = "";
             textBoxcodigob.Text = "";
             textBoxproducto.Text = "";
             textBoxprecio.Text = "";
             textBoxcantidad.Text = "";
-            
+
+            textBoxid.Text = "";
             textBoxcodigoedit.Text = "";
             textBoxproductoedit.Text = "";
             textBoxprecioedit.Text = "";
@@ -244,6 +245,13 @@ namespace BDFARMACIA
 
         private void label4_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void buttonMenu_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal abrir = new MenuPrincipal();
+            abrir.Show();
 
         }
     }

@@ -66,6 +66,7 @@
             this.buttonconsultaredit = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBox1productosedit = new System.Windows.Forms.ComboBox();
+            this.buttonMenu = new System.Windows.Forms.Button();
             this.Consultar.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -499,12 +500,26 @@
             this.comboBox1productosedit.Size = new System.Drawing.Size(215, 24);
             this.comboBox1productosedit.TabIndex = 0;
             // 
+            // buttonMenu
+            // 
+            this.buttonMenu.BackColor = System.Drawing.Color.Pink;
+            this.buttonMenu.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMenu.Location = new System.Drawing.Point(937, 72);
+            this.buttonMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonMenu.Name = "buttonMenu";
+            this.buttonMenu.Size = new System.Drawing.Size(63, 26);
+            this.buttonMenu.TabIndex = 15;
+            this.buttonMenu.Text = "Menu";
+            this.buttonMenu.UseVisualStyleBackColor = false;
+            this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
+            // 
             // Medicamentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.buttonMenu);
             this.Controls.Add(this.Consultar);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -565,5 +580,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxid;
+        private System.Windows.Forms.Button buttonMenu;
     }
 }

@@ -70,15 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
+              "RelativeDocumentMoniker": "BDFARMACIA\\Conexion.cs",
+              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
+              "RelativeToolTip": "BDFARMACIA\\Conexion.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:58:17.857Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -103,18 +112,6 @@
               "ViewState": "AQIAACgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T19:36:19.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
-              "RelativeDocumentMoniker": "BDFARMACIA\\Conexion.cs",
-              "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Conexion.cs",
-              "RelativeToolTip": "BDFARMACIA\\Conexion.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAACoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:58:17.857Z"
             },
             {
               "$type": "Document",
@@ -147,7 +144,7 @@
               "RelativeDocumentMoniker": "BDFARMACIA\\Medicamentos.cs",
               "ToolTip": "C:\\Users\\servidor\\Downloads\\BDFARMACIA(1)\\BDFARMACIA\\Medicamentos.cs",
               "RelativeToolTip": "BDFARMACIA\\Medicamentos.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEwAAAAXAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T13:59:00.414Z",
               "EditorCaption": ""

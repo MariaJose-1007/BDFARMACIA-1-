@@ -46,14 +46,18 @@ namespace BDFARMACIA
 
         public void guardar()
         {
-            if ( textBoxnombre.Text.Trim() == String.Empty && textBoxapellidos.Text.Trim() == String.Empty
+            if (textBoxid.Text.Trim() == String.Empty && textBoxnombre.Text.Trim() == String.Empty && textBoxapellidos.Text.Trim() == String.Empty
                 && textBoxtelefono.Text.Trim() == String.Empty )
             {
                 MessageBox.Show("Error!");
                 return;
             }
 
-            
+            if (textBoxid.Text.Trim() == String.Empty)
+            {
+                MessageBox.Show("Ingrese el id del cliente");
+                return;
+            }
             if (textBoxnombre.Text.Trim() == String.Empty)
             {
                 MessageBox.Show("Ingresa el Nombre del cliente");
@@ -74,9 +78,9 @@ namespace BDFARMACIA
 
             
 
-            String sql = String.Format("insert into clientes(Nombre, Apellidos, Telefono)" +
-                          " values('{0}','{1}','{2}')",
-                          textBoxnombre.Text.Trim(), textBoxapellidos.Text.Trim(), textBoxtelefono.Text.Trim());
+            String sql = String.Format("insert into clientes(id,Nombre, Apellidos, Telefono)" +
+                          " values('{0}','{1}','{2}','{3}')",
+                         textBoxid.Text.Trim(), textBoxnombre.Text.Trim(), textBoxapellidos.Text.Trim(), textBoxtelefono.Text.Trim());
 
             try
             {
@@ -101,7 +105,7 @@ namespace BDFARMACIA
 
         public void limpiar()
         {
-            
+            textBoxid.Text = "";
             textBoxnombre.Text = "";
             textBoxapellidos.Text = "";
             textBoxtelefono.Text = "";

@@ -12,7 +12,7 @@ namespace BDFARMACIA
        
             const string HOST = "localhost";
             const string USER = "root";
-            const string PASS = "leyva1007";
+            const string PASS = "123";
             const string DB = "farmacia";
 
             MySqlConnection Ocon = new MySqlConnection();

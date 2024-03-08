@@ -109,3 +109,16 @@ C:\Users\servidor\Downloads\BDFARMACIA(1)\BDFARMACIA\obj\Debug\BDFARMACIA.csproj
 C:\Users\servidor\Downloads\BDFARMACIA(1)\BDFARMACIA\obj\Debug\BDFARMACIA.csproj.Up2Date
 C:\Users\servidor\Downloads\BDFARMACIA(1)\BDFARMACIA\obj\Debug\BDFARMACIA.exe
 C:\Users\servidor\Downloads\BDFARMACIA(1)\BDFARMACIA\obj\Debug\BDFARMACIA.pdb
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.csproj.AssemblyReference.cache
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.csproj.SuggestedBindingRedirects.cache
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.exe.config
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.Clientes.resources
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.Factura.resources
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.INICIARSESION.resources
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.Medicamentos.resources
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.MenuPrincipal.resources
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.Properties.Resources.resources
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.csproj.GenerateResource.cache
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.csproj.CoreCompileInputs.cache
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.exe
+C:\Users\Magaly\Documents\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.pdb

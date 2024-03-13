@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+
 namespace BDFARMACIA
 {
     public partial class Clientes : Form
@@ -38,7 +39,9 @@ namespace BDFARMACIA
             conMysql.Connect();
             String sql = "select id, Nombre from clientes";
             conMysql.CargarCombo(comboBoxclientedatos, sql, "Nombre", "id");
-            
+
+          
+
         }
 
 
@@ -166,6 +169,11 @@ namespace BDFARMACIA
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

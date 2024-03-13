@@ -44,7 +44,11 @@ private void button1_Click(object sender, EventArgs e)
             abrir.Show();
         }
 
-        
+        private void RegistroVentasPorDia_Click(object sender, EventArgs e)
+        {
+            RegistroVentasPorDia abrir = new RegistroVentasPorDia();
+            abrir.Show();
+        }
     }
 }
 

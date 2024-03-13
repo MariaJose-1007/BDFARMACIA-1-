@@ -24,7 +24,7 @@ namespace BDFARMACIA
 
         
         
-        dataGridView1.ColumnCount = 5;
+        dataGridView1.ColumnCount = 6;
             dataGridView1.ColumnHeadersVisible = true;
             
 
@@ -41,14 +41,16 @@ namespace BDFARMACIA
             dataGridView1.Columns[2].Name = "Precio";
             dataGridView1.Columns[3].Name = "Cantidad";
             dataGridView1.Columns[4].Name = "Total";
+            dataGridView1.Columns[5].Name = "Fecha";
 
             dataGridView1.Columns[0].Width = 80;
             dataGridView1.Columns[1].Width = 90;
             dataGridView1.Columns[2].Width = 120;
             dataGridView1.Columns[3].Width = 60;
             dataGridView1.Columns[4].Width = 140;
-            
-            
+            dataGridView1.Columns[5].Width = 140;
+
+
             conMysql.Connect();
             String sql = "select id, Nombre from clientes";
             
@@ -104,7 +106,7 @@ namespace BDFARMACIA
         {
             String sql3 = "select Precio from productos where id = " + comboBoxproducto.SelectedValue;
             DataRow precio = conMysql.getRow(sql3);
-
+            
             int total = 0;
             int unidad = int.Parse(textBoxunidad.Text);
             var precio_unidad = (int)precio[0];
@@ -135,6 +137,8 @@ namespace BDFARMACIA
                 MessageBox.Show(" Error");
                 return;
             }
+
+ 
 
             dateTimePicker1.Value = DateTime.Now;
 
@@ -168,6 +172,7 @@ namespace BDFARMACIA
                 {
                     MessageBox.Show(" Registro de Factura éxitoso \n" +
                                     " Numero Factura: " + busq1[0] + "\n" +
+                                    " Fecha: " + dateTimePicker1.Value + "\n" +
                                     " Cliente: " + comboBoxcliente.Text + "\n" +
                                     " Producto: " + comboBoxproducto.Text + "\n" +
                                     " Cantidad: " + textBoxunidad.Text + "\n" +
@@ -215,7 +220,12 @@ namespace BDFARMACIA
                 e.Handled = true;
             }
     }
-}
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
 
 

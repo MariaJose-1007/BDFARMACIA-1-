@@ -138,7 +138,7 @@ namespace BDFARMACIA
             DataRow fila = conMysql.getRow(sql);
             if (fila != null)
             {
-                textBoxid.Text )= fila["id"].ToString();
+                textBoxid.Text  = fila["id"].ToString();
                 textBoxcodigoedit.Text = fila["Codigo_Barra"].ToString();
                 textBoxproductoedit.Text = fila["Producto"].ToString();
                 textBoxprecioedit.Text = fila["Precio"].ToString();
@@ -252,6 +252,11 @@ namespace BDFARMACIA
         {
             MenuPrincipal abrir = new MenuPrincipal();
             abrir.Show();
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Factura));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBoxunidad = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -114,11 +116,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(329, 187);
+            this.label6.Location = new System.Drawing.Point(399, 170);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 14);
+            this.label6.Size = new System.Drawing.Size(102, 14);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Unidades";
+            this.label6.Text = "Total de piezas";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // comboBoxproducto
@@ -132,9 +134,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(29, 219);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 219);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(511, 219);
+            this.dataGridView1.Size = new System.Drawing.Size(551, 219);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -199,6 +201,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(210, 20);
             this.dateTimePicker1.TabIndex = 19;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // pictureBox2
             // 
@@ -217,6 +220,11 @@
             this.textBoxunidad.Size = new System.Drawing.Size(100, 20);
             this.textBoxunidad.TabIndex = 21;
             this.textBoxunidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxunidad_KeyPress_1);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // Factura
             // 
@@ -271,5 +279,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBoxunidad;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

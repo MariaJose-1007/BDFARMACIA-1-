@@ -65,6 +65,7 @@
             this.textBoxusuario.Name = "textBoxusuario";
             this.textBoxusuario.Size = new System.Drawing.Size(100, 20);
             this.textBoxusuario.TabIndex = 2;
+            this.textBoxusuario.TextChanged += new System.EventHandler(this.textBoxusuario_TextChanged);
             // 
             // textBoxcontraseña
             // 

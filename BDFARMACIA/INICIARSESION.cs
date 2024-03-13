@@ -60,5 +60,10 @@ namespace BDFARMACIA
                 MessageBox.Show("Error verifique porfavor !!!");
             }
         }
+
+        private void textBoxusuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -84,7 +84,7 @@
             this.Total});
             this.dataGridViewVentas.Location = new System.Drawing.Point(54, 152);
             this.dataGridViewVentas.Name = "dataGridViewVentas";
-            this.dataGridViewVentas.Size = new System.Drawing.Size(447, 234);
+            this.dataGridViewVentas.Size = new System.Drawing.Size(504, 234);
             this.dataGridViewVentas.TabIndex = 5;
             // 
             // textBoxTotalVentas
@@ -137,6 +137,7 @@
             // 
             this.fecha.HeaderText = "Fecha";
             this.fecha.Name = "fecha";
+            this.fecha.Width = 160;
             // 
             // cliente
             // 

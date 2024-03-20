@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
+
 
 namespace BDFARMACIA
 {
@@ -30,12 +34,14 @@ namespace BDFARMACIA
 
             
             DataGridViewCellStyle columnHeaderStyle = new DataGridViewCellStyle();
-
-        columnHeaderStyle.BackColor = Color.Beige;
-            columnHeaderStyle.Font = new Font("Verdana", 8, FontStyle.Bold);
-        dataGridView1.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
+            columnHeaderStyle.Font = new System.Drawing.Font("Verdana", 8, System.Drawing.FontStyle.Bold);
+            columnHeaderStyle.BackColor = Color.Beige;
+            
+            dataGridView1.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
 
             
+
+
             dataGridView1.Columns[0].Name = "Cliente";
             dataGridView1.Columns[1].Name = "Producto";
             dataGridView1.Columns[2].Name = "Precio";
@@ -74,6 +80,7 @@ namespace BDFARMACIA
         {
             guardar();
 
+            
         }
 
         private void buttonsalir_Click(object sender, EventArgs e)
@@ -178,6 +185,9 @@ namespace BDFARMACIA
                                     " Cantidad: " + textBoxunidad.Text + "\n" +
                                     " Total :$ " + textBoxtotal.Text + "\n" +
                                     " ");
+                    generarPDF(busq1[0].ToString(), comboBoxcliente.Text, comboBoxproducto.Text, textBoxunidad.Text, textBoxtotal.Text, dateTimePicker1.Value);
+
+                    limpiar();
                 }
                 else
                 {
@@ -190,6 +200,38 @@ namespace BDFARMACIA
                 MessageBox.Show(ex.Message);
             }
         }
+
+
+
+
+        public void generarPDF(string numeroFactura, string cliente, string producto, string cantidad, string total, DateTime fecha)
+        {
+            Document doc = new Document();
+            PdfWriter.GetInstance(doc, new FileStream("Ticket.pdf", FileMode.Create));
+            doc.Open();
+
+            // Agregar contenido al PDF
+            Paragraph p = new Paragraph("FARMACIA MJL\n\n" +
+                "TICKET DE COMPRA\n\n" +
+                " Registro de ticket éxitoso \n" +
+                " Numero Factura: " + numeroFactura + "\n" +
+                " Fecha: " + fecha.ToString() + "\n" +
+                " Cliente: " + cliente + "\n" +
+                " Producto: " + producto + "\n" +
+                " Cantidad: " + cantidad + "\n" +
+                " Total :$ " + total + "\n\n" +
+                " GRACIAS POR SU COMPRA "
+            );
+            doc.Add(p);
+
+            // Agregar más contenido al PDF si es necesario
+
+            doc.Close();
+
+            MessageBox.Show("Ticket guardada en formato PDF (Ticket.pdf)");
+        }
+
+
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -222,6 +264,31 @@ namespace BDFARMACIA
     }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonImprimirFact_Click(object sender, EventArgs e)
+        {
+            //generarPDF();
+        }
+
+        private void comboBoxcliente_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxproducto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxunidad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxtotal_TextChanged(object sender, EventArgs e)
         {
 
         }

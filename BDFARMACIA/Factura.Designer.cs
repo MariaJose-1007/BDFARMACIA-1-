@@ -101,6 +101,7 @@
             this.comboBoxcliente.Name = "comboBoxcliente";
             this.comboBoxcliente.Size = new System.Drawing.Size(313, 21);
             this.comboBoxcliente.TabIndex = 8;
+            this.comboBoxcliente.SelectedIndexChanged += new System.EventHandler(this.comboBoxcliente_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -130,6 +131,7 @@
             this.comboBoxproducto.Name = "comboBoxproducto";
             this.comboBoxproducto.Size = new System.Drawing.Size(229, 21);
             this.comboBoxproducto.TabIndex = 12;
+            this.comboBoxproducto.SelectedIndexChanged += new System.EventHandler(this.comboBoxproducto_SelectedIndexChanged);
             // 
             // dataGridView1
             // 
@@ -170,6 +172,7 @@
             this.textBoxtotal.Name = "textBoxtotal";
             this.textBoxtotal.Size = new System.Drawing.Size(110, 20);
             this.textBoxtotal.TabIndex = 16;
+            this.textBoxtotal.TextChanged += new System.EventHandler(this.textBoxtotal_TextChanged);
             // 
             // Guardar
             // 
@@ -187,7 +190,7 @@
             // 
             this.buttonsalir.BackColor = System.Drawing.Color.Pink;
             this.buttonsalir.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonsalir.Location = new System.Drawing.Point(706, 388);
+            this.buttonsalir.Location = new System.Drawing.Point(653, 388);
             this.buttonsalir.Name = "buttonsalir";
             this.buttonsalir.Size = new System.Drawing.Size(78, 43);
             this.buttonsalir.TabIndex = 18;
@@ -219,6 +222,7 @@
             this.textBoxunidad.Name = "textBoxunidad";
             this.textBoxunidad.Size = new System.Drawing.Size(100, 20);
             this.textBoxunidad.TabIndex = 21;
+            this.textBoxunidad.TextChanged += new System.EventHandler(this.textBoxunidad_TextChanged);
             this.textBoxunidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxunidad_KeyPress_1);
             // 
             // contextMenuStrip1

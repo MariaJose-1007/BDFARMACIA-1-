@@ -150,3 +150,7 @@ C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\K4os.Hash.xxHash.
 C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\MySql.Data.xml
 C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.csproj.CopyComplete
 C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.RegistroVentasPorDia.resources
+C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\itextsharp.dll
+C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\itextsharp.xml

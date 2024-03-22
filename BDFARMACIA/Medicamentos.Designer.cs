@@ -39,8 +39,6 @@
             this.comboBoxproductos = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxid = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.buttonborarr = new System.Windows.Forms.Button();
             this.buttonguardar = new System.Windows.Forms.Button();
@@ -179,8 +177,6 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.textBoxid);
             this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.buttonborarr);
             this.tabPage2.Controls.Add(this.buttonguardar);
@@ -198,25 +194,6 @@
             this.tabPage2.Size = new System.Drawing.Size(720, 314);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Agregar";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(40, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 14);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "id";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // textBoxid
-            // 
-            this.textBoxid.Location = new System.Drawing.Point(222, 24);
-            this.textBoxid.Name = "textBoxid";
-            this.textBoxid.Size = new System.Drawing.Size(166, 20);
-            this.textBoxid.TabIndex = 13;
-            this.textBoxid.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox2
             // 
@@ -544,8 +521,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxid;
         private System.Windows.Forms.Button buttonMenu;
     }
 }

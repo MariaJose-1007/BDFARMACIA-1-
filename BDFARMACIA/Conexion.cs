@@ -33,8 +33,40 @@ namespace BDFARMACIA
 
             }
 
-            //Insert, Update, Delete
-            public int Query(string sql)
+        public T GetScalar<T>(string sql)
+        {
+            T result = default(T);
+
+            using (MySqlCommand command = new MySqlCommand(sql, Ocon))
+            {
+                object scalarValue = command.ExecuteScalar();
+                if (scalarValue != null)
+                {
+                    result = (T)Convert.ChangeType(scalarValue, typeof(T));
+                }
+            }
+
+            return result;
+        }
+
+        public int getLastInsertId()
+        {
+            String sql = "SELECT LAST_INSERT_ID()";
+            MySqlCommand command = new MySqlCommand(sql, Ocon);
+            object result = command.ExecuteScalar();
+            if (result != null)
+            {
+                return Convert.ToInt32(result);
+            }
+            else
+            {
+                return -1; // Indicar un valor de error en caso de fallo
+            }
+        }
+
+
+        //Insert, Update, Delete
+        public int Query(string sql)
             {
                 MySqlCommand command = new MySqlCommand(sql, Ocon);
                 return command.ExecuteNonQuery();
@@ -83,6 +115,11 @@ namespace BDFARMACIA
                 }
 
             }
-        }
+
+        // Ejemplo de implementación básica de un método GetScalar en la clase Conexion
+       
+
+
     }
+}
 

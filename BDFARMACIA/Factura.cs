@@ -109,19 +109,20 @@ namespace BDFARMACIA
             
             textBoxtotal.Text = Convert.ToString(sumatoria);
         }
-        public void agregarcarrito()
-        {
-            String sql3 = "select Precio from productos where id = " + comboBoxproducto.SelectedValue;
-            DataRow precio = conMysql.getRow(sql3);
+       public void agregarcarrito()
+{
+    String sql3 = "select Precio from productos where id = " + comboBoxproducto.SelectedValue;
+    DataRow precio = conMysql.getRow(sql3);
             
-            int total = 0;
-            int unidad = int.Parse(textBoxunidad.Text);
-            var precio_unidad = (int)precio[0];
+    decimal total = 0;
+    decimal unidad = decimal.Parse(textBoxunidad.Text);
+    var precio_unidad = (decimal)precio[0];
+    total = precio_unidad * unidad;
 
-            total = precio_unidad * unidad;
+            // Agregar el producto como una nueva fila en el DataGridView
+            dataGridView1.Rows.Add(comboBoxcliente.SelectedValue, comboBoxproducto.Text, precio_unidad, unidad, total);
+}
 
-            dataGridView1.Rows.Add(comboBoxcliente.SelectedValue, comboBoxproducto.SelectedValue, precio_unidad, unidad, total);
-        }
 
 
 
@@ -214,7 +215,7 @@ namespace BDFARMACIA
             Paragraph p = new Paragraph("FARMACIA MJL\n\n" +
                 "TICKET DE COMPRA\n\n" +
                 " Registro de ticket éxitoso \n" +
-                " Numero Factura: " + numeroFactura + "\n" +
+                " Numero Ticked: " + numeroFactura + "\n" +
                 " Fecha: " + fecha.ToString() + "\n" +
                 " Cliente: " + cliente + "\n" +
                 " Producto: " + producto + "\n" +

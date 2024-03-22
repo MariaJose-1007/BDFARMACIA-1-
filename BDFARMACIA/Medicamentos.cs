@@ -45,13 +45,13 @@ namespace BDFARMACIA
 
         public void limpiar()
         {
-            textBoxid.Text = "";
+           // textBoxid.Text = "";
             textBoxcodigob.Text = "";
             textBoxproducto.Text = "";
             textBoxprecio.Text = "";
             textBoxcantidad.Text = "";
 
-            textBoxid.Text = "";
+            //textBoxid.Text = "";
             textBoxcodigoedit.Text = "";
             textBoxproductoedit.Text = "";
             textBoxprecioedit.Text = "";
@@ -64,55 +64,33 @@ namespace BDFARMACIA
 
         public void guardar()
         {
-            if (textBoxid.Text.Trim() == String.Empty && textBoxcodigob.Text.Trim() == String.Empty && textBoxproducto.Text.Trim() == String.Empty
-                && textBoxprecio.Text.Trim() == String.Empty && textBoxcantidad.Text.Trim() == String.Empty)
+            if (textBoxcodigob.Text.Trim() == String.Empty || textBoxproducto.Text.Trim() == String.Empty
+        || textBoxprecio.Text.Trim() == String.Empty || textBoxcantidad.Text.Trim() == String.Empty)
             {
-                MessageBox.Show("!ERROR rellene los campos !");
+                MessageBox.Show("ERROR: Rellene todos los campos.");
                 return;
             }
-
-
-            if (textBoxid.Text.Trim() == String.Empty)
-            {
-                MessageBox.Show("Ingrese el id del producto");
-                return;
-            }
-            if (textBoxcodigob.Text.Trim() == String.Empty)
-            {
-                MessageBox.Show("Ingrese el codigo de barras");
-                return;
-            }
-            else if (textBoxcodigob.Text.Trim().Length != 12 || !textBoxcodigob.Text.Trim().All(char.IsDigit))
-            {
-                MessageBox.Show("El código de barras debe tener exactamente 12 dígitos numéricos.");
-                return;
-            }
-
-
-            if (textBoxproducto.Text.Trim() == String.Empty)
-            {
-                MessageBox.Show("Ingrese el nombre del producto");
-                return;
-            }
-
-            if (textBoxprecio.Text.Trim() == String.Empty)
-            {
-                MessageBox.Show("Ingrese el precio");
-                return;
-            }
-            if (textBoxcantidad.Text.Trim() == String.Empty)
-            {
-                MessageBox.Show("Ingrese la cantidad en existencia del producto");
-                return;
-            }
-
-
-            String sql = String.Format("insert into productos(id,Codigo_Barra,Producto,Precio,Cantidad_Existencia)" +
-                          " values('{0}','{1}','{2}','{3}','{4}')",
-                          textBoxid.Text.Trim(), textBoxcodigob.Text.Trim(), textBoxproducto.Text.Trim(), textBoxprecio.Text.Trim(), textBoxcantidad.Text.Trim());
 
             try
             {
+                // Obtener el código de barras del TextBox
+                string codigoBarras = textBoxcodigob.Text.Trim();
+
+                // Verificar si el código de barras ya existe en la base de datos
+                string sqlVerificar = $"SELECT COUNT(*) FROM productos WHERE Codigo_Barra = '{codigoBarras}'";
+                int count = conMysql.GetScalar <int> (sqlVerificar);  // Obtener el resultado como entero
+
+                if (count > 0)
+                {
+                    MessageBox.Show("El código de barras ya existe. Ingrese uno diferente.");
+                    return;
+                }
+
+
+                // Resto del código para guardar el producto en la base de datos
+                String sql = "INSERT INTO productos (Codigo_Barra, Producto, Precio, Cantidad_Existencia) " +
+                             $"VALUES ('{codigoBarras}', '{textBoxproducto.Text.Trim()}', " +
+                             $"'{textBoxprecio.Text.Trim()}', '{textBoxcantidad.Text.Trim()}')";
 
                 if (conMysql.Query(sql) == 1)
                 {
@@ -120,11 +98,10 @@ namespace BDFARMACIA
                 }
                 else
                 {
-                    MessageBox.Show("ERROR!");
+                    MessageBox.Show("ERROR al guardar.");
                 }
 
                 limpiar();
-
             }
             catch (MySql.Data.MySqlClient.MySqlException ex)
             {
@@ -138,7 +115,7 @@ namespace BDFARMACIA
             DataRow fila = conMysql.getRow(sql);
             if (fila != null)
             {
-                textBoxid.Text  = fila["id"].ToString();
+                Text  = fila["id"].ToString();
                 textBoxcodigoedit.Text = fila["Codigo_Barra"].ToString();
                 textBoxproductoedit.Text = fila["Producto"].ToString();
                 textBoxprecioedit.Text = fila["Precio"].ToString();
@@ -153,31 +130,37 @@ namespace BDFARMACIA
         }
         public void consultar()
         {
-
-            lstMedicamentos = conMysql.getRow("select * from productos where id='" + comboBoxproductos.SelectedValue + "'");
-
             if (comboBoxproductos.SelectedValue == null)
             {
-                MessageBox.Show("El producto ya existe");
+                MessageBox.Show("Seleccione un producto.");
+                return;
             }
 
-            ListViewItem lvItem = new ListViewItem();
+            string productId = comboBoxproductos.SelectedValue.ToString();
+            lstMedicamentos = conMysql.getRow("SELECT * FROM productos WHERE id='" + productId + "'");
 
-            lvItem.SubItems[0].Text = lstMedicamentos[0].ToString();
-            lvItem.SubItems.Add(lstMedicamentos[1].ToString());
-            lvItem.SubItems.Add(lstMedicamentos[2].ToString());
-            lvItem.SubItems.Add(lstMedicamentos[3].ToString());
-            lvItem.SubItems.Add(lstMedicamentos[4].ToString());
-           
+            if (lstMedicamentos != null)
+            {
+                ListViewItem lvItem = new ListViewItem();
+                lvItem.SubItems[0].Text = lstMedicamentos["id"].ToString();
+                lvItem.SubItems.Add(lstMedicamentos["Codigo_Barra"].ToString());
+                lvItem.SubItems.Add(lstMedicamentos["Producto"].ToString());
+                lvItem.SubItems.Add(lstMedicamentos["Precio"].ToString());
+                lvItem.SubItems.Add(lstMedicamentos["Cantidad_Existencia"].ToString());
 
-            listView1.Items.Add(lvItem);
-
+                listView1.Items.Clear();  // Limpiar la lista antes de agregar el nuevo elemento
+                listView1.Items.Add(lvItem);
+            }
+            else
+            {
+                MessageBox.Show("El producto no existe.");
+            }
         }
         public void guardarcambios()
             
         {
             String sql = String.Format("update productos set Codigo_Barra='{0}', Producto='{1}', Precio='{2}', Cantidad_Existencia='{3}' where id='{4}'",
-                         textBoxid.Text.Trim(), textBoxcodigoedit.Text.Trim(), textBoxproductoedit.Text.Trim(), textBoxprecioedit.Text.Trim(), textBox5cantidadedit.Text.Trim(), comboBox1productosedit.SelectedValue);
+                         Text.Trim(), textBoxcodigoedit.Text.Trim(), textBoxproductoedit.Text.Trim(), textBoxprecioedit.Text.Trim(), textBox5cantidadedit.Text.Trim(), comboBox1productosedit.SelectedValue);
             try
             {
 
@@ -198,6 +181,7 @@ namespace BDFARMACIA
                 MessageBox.Show(ex.Message);
             }
         }
+
 
 
 

@@ -38,6 +38,8 @@
             this.comboBoxclientedatos = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxid = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.buttonagregarnuevocliente = new System.Windows.Forms.Button();
@@ -48,8 +50,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBoxid = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,12 +64,12 @@
             this.tabControl1.Location = new System.Drawing.Point(28, 13);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(740, 401);
+            this.tabControl1.Size = new System.Drawing.Size(693, 353);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.listView1);
             this.tabPage1.Controls.Add(this.buttonborrar);
@@ -79,7 +79,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(732, 375);
+            this.tabPage1.Size = new System.Drawing.Size(685, 327);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Consultar clientes";
             // 
@@ -95,6 +95,7 @@
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(189)))), ((int)(((byte)(154)))));
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(61, 112);
             this.listView1.Name = "listView1";
@@ -104,7 +105,7 @@
             // 
             // buttonborrar
             // 
-            this.buttonborrar.BackColor = System.Drawing.Color.Pink;
+            this.buttonborrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonborrar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonborrar.Location = new System.Drawing.Point(591, 53);
             this.buttonborrar.Name = "buttonborrar";
@@ -116,7 +117,7 @@
             // 
             // buttonconsultar
             // 
-            this.buttonconsultar.BackColor = System.Drawing.Color.Pink;
+            this.buttonconsultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonconsultar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonconsultar.Location = new System.Drawing.Point(486, 53);
             this.buttonconsultar.Name = "buttonconsultar";
@@ -137,7 +138,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Pink;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(170, 53);
             this.label1.Name = "label1";
@@ -148,7 +149,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.textBoxid);
             this.tabPage2.Controls.Add(this.pictureBox2);
@@ -164,9 +165,27 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(732, 375);
+            this.tabPage2.Size = new System.Drawing.Size(685, 327);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Agregar Clientes";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(91, 87);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 17);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Id";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // textBoxid
+            // 
+            this.textBoxid.Location = new System.Drawing.Point(190, 87);
+            this.textBoxid.Name = "textBoxid";
+            this.textBoxid.Size = new System.Drawing.Size(178, 20);
+            this.textBoxid.TabIndex = 12;
             // 
             // pictureBox2
             // 
@@ -181,7 +200,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Pink;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.button1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(309, 281);
             this.button1.Name = "button1";
@@ -193,7 +212,7 @@
             // 
             // buttonagregarnuevocliente
             // 
-            this.buttonagregarnuevocliente.BackColor = System.Drawing.Color.Pink;
+            this.buttonagregarnuevocliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonagregarnuevocliente.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonagregarnuevocliente.Location = new System.Drawing.Point(70, 281);
             this.buttonagregarnuevocliente.Name = "buttonagregarnuevocliente";
@@ -223,6 +242,7 @@
             this.textBoxnombre.Name = "textBoxnombre";
             this.textBoxnombre.Size = new System.Drawing.Size(178, 20);
             this.textBoxnombre.TabIndex = 6;
+            this.textBoxnombre.TextChanged += new System.EventHandler(this.textBoxnombre_TextChanged);
             // 
             // label6
             // 
@@ -265,30 +285,12 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Datos clientes";
             // 
-            // textBoxid
-            // 
-            this.textBoxid.Location = new System.Drawing.Point(190, 87);
-            this.textBoxid.Name = "textBoxid";
-            this.textBoxid.Size = new System.Drawing.Size(178, 20);
-            this.textBoxid.TabIndex = 12;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(91, 87);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(22, 17);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Id";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(798, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
+            this.ClientSize = new System.Drawing.Size(739, 389);
             this.Controls.Add(this.tabControl1);
             this.Name = "Clientes";
             this.Text = "Clientes";

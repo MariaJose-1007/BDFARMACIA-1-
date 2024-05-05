@@ -78,7 +78,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(72)))), ((int)(((byte)(107)))));
             this.label1.Location = new System.Drawing.Point(304, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(176, 27);
@@ -98,7 +98,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.buttonborrar);
             this.tabPage1.Controls.Add(this.buttonconsultar);
@@ -124,7 +124,7 @@
             // 
             // buttonborrar
             // 
-            this.buttonborrar.BackColor = System.Drawing.Color.Pink;
+            this.buttonborrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonborrar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonborrar.Location = new System.Drawing.Point(613, 31);
             this.buttonborrar.Name = "buttonborrar";
@@ -136,7 +136,7 @@
             // 
             // buttonconsultar
             // 
-            this.buttonconsultar.BackColor = System.Drawing.Color.Pink;
+            this.buttonconsultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonconsultar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonconsultar.Location = new System.Drawing.Point(529, 31);
             this.buttonconsultar.Name = "buttonconsultar";
@@ -148,6 +148,7 @@
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(189)))), ((int)(((byte)(154)))));
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(25, 96);
             this.listView1.Name = "listView1";
@@ -176,7 +177,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(189)))), ((int)(((byte)(154)))));
             this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.buttonborarr);
             this.tabPage2.Controls.Add(this.buttonguardar);
@@ -207,7 +208,7 @@
             // 
             // buttonborarr
             // 
-            this.buttonborarr.BackColor = System.Drawing.Color.Pink;
+            this.buttonborarr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonborarr.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonborarr.Location = new System.Drawing.Point(238, 230);
             this.buttonborarr.Name = "buttonborarr";
@@ -219,7 +220,7 @@
             // 
             // buttonguardar
             // 
-            this.buttonguardar.BackColor = System.Drawing.Color.Pink;
+            this.buttonguardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonguardar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonguardar.Location = new System.Drawing.Point(106, 230);
             this.buttonguardar.Name = "buttonguardar";
@@ -258,6 +259,7 @@
             this.textBoxcodigob.Name = "textBoxcodigob";
             this.textBoxcodigob.Size = new System.Drawing.Size(166, 20);
             this.textBoxcodigob.TabIndex = 6;
+            this.textBoxcodigob.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxcodigob_KeyDown_1);
             // 
             // label7
             // 
@@ -302,7 +304,7 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(189)))), ((int)(((byte)(154)))));
             this.tabPage3.Controls.Add(this.pictureBox3);
             this.tabPage3.Controls.Add(this.buttonguardarcambios);
             this.tabPage3.Controls.Add(this.textBox5cantidadedit);
@@ -335,7 +337,7 @@
             // 
             // buttonguardarcambios
             // 
-            this.buttonguardarcambios.BackColor = System.Drawing.Color.Pink;
+            this.buttonguardarcambios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonguardarcambios.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonguardarcambios.Location = new System.Drawing.Point(277, 281);
             this.buttonguardarcambios.Name = "buttonguardarcambios";
@@ -417,7 +419,7 @@
             // 
             // buttonconsultaredit
             // 
-            this.buttonconsultaredit.BackColor = System.Drawing.Color.Pink;
+            this.buttonconsultaredit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonconsultaredit.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonconsultaredit.Location = new System.Drawing.Point(125, 281);
             this.buttonconsultaredit.Name = "buttonconsultaredit";
@@ -447,11 +449,11 @@
             // 
             // buttonMenu
             // 
-            this.buttonMenu.BackColor = System.Drawing.Color.Pink;
+            this.buttonMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonMenu.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMenu.Location = new System.Drawing.Point(703, 58);
+            this.buttonMenu.Location = new System.Drawing.Point(672, 48);
             this.buttonMenu.Name = "buttonMenu";
-            this.buttonMenu.Size = new System.Drawing.Size(47, 21);
+            this.buttonMenu.Size = new System.Drawing.Size(84, 37);
             this.buttonMenu.TabIndex = 15;
             this.buttonMenu.Text = "Menu";
             this.buttonMenu.UseVisualStyleBackColor = false;
@@ -461,7 +463,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonMenu);
             this.Controls.Add(this.Consultar);

@@ -28,10 +28,6 @@ private void button1_Click(object sender, EventArgs e)
             abrir.Show();
         }
 
-        
-
-        
-
         private void buttonfactura_Click(object sender, EventArgs e)
         {
             Factura abrir = new Factura();
@@ -48,6 +44,21 @@ private void button1_Click(object sender, EventArgs e)
         {
             RegistroVentasPorDia abrir = new RegistroVentasPorDia();
             abrir.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

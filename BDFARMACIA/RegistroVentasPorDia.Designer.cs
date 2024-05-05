@@ -33,15 +33,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
             this.dataGridViewVentas = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBoxTotalVentas = new System.Windows.Forms.TextBox();
             this.labelFecha = new System.Windows.Forms.Label();
             this.buttonTotalVentas = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.buttonConsultar = new System.Windows.Forms.Button();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVentas)).BeginInit();
             this.SuspendLayout();
@@ -52,6 +52,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(395, 101);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -59,16 +60,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(469, 54);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(72)))), ((int)(((byte)(107)))));
+            this.label1.Location = new System.Drawing.Point(423, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(259, 30);
             this.label1.TabIndex = 3;
             this.label1.Text = "REGISTRO DE VENTAS";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dateTimePickerFecha
             // 
-            this.dateTimePickerFecha.Location = new System.Drawing.Point(459, 115);
+            this.dateTimePickerFecha.Location = new System.Drawing.Point(140, 139);
             this.dateTimePickerFecha.Name = "dateTimePickerFecha";
             this.dateTimePickerFecha.Size = new System.Drawing.Size(200, 20);
             this.dateTimePickerFecha.TabIndex = 4;
@@ -76,57 +78,18 @@
             // 
             // dataGridViewVentas
             // 
+            this.dataGridViewVentas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(189)))), ((int)(((byte)(154)))));
             this.dataGridViewVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewVentas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.fecha,
             this.cliente,
             this.Total});
-            this.dataGridViewVentas.Location = new System.Drawing.Point(54, 152);
+            this.dataGridViewVentas.Location = new System.Drawing.Point(88, 175);
             this.dataGridViewVentas.Name = "dataGridViewVentas";
-            this.dataGridViewVentas.Size = new System.Drawing.Size(504, 234);
+            this.dataGridViewVentas.Size = new System.Drawing.Size(506, 234);
             this.dataGridViewVentas.TabIndex = 5;
-            // 
-            // textBoxTotalVentas
-            // 
-            this.textBoxTotalVentas.Location = new System.Drawing.Point(656, 405);
-            this.textBoxTotalVentas.Name = "textBoxTotalVentas";
-            this.textBoxTotalVentas.Size = new System.Drawing.Size(100, 20);
-            this.textBoxTotalVentas.TabIndex = 6;
-            // 
-            // labelFecha
-            // 
-            this.labelFecha.AutoSize = true;
-            this.labelFecha.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFecha.Location = new System.Drawing.Point(409, 115);
-            this.labelFecha.Name = "labelFecha";
-            this.labelFecha.Size = new System.Drawing.Size(44, 14);
-            this.labelFecha.TabIndex = 7;
-            this.labelFecha.Text = "Fecha";
-            // 
-            // buttonTotalVentas
-            // 
-            this.buttonTotalVentas.BackColor = System.Drawing.Color.Pink;
-            this.buttonTotalVentas.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonTotalVentas.Location = new System.Drawing.Point(509, 399);
-            this.buttonTotalVentas.Name = "buttonTotalVentas";
-            this.buttonTotalVentas.Size = new System.Drawing.Size(136, 30);
-            this.buttonTotalVentas.TabIndex = 15;
-            this.buttonTotalVentas.Text = "Total Ventas";
-            this.buttonTotalVentas.UseVisualStyleBackColor = false;
-            this.buttonTotalVentas.Click += new System.EventHandler(this.buttonTotalVentas_Click_1);
-            // 
-            // buttonConsultar
-            // 
-            this.buttonConsultar.BackColor = System.Drawing.Color.Pink;
-            this.buttonConsultar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonConsultar.Location = new System.Drawing.Point(665, 115);
-            this.buttonConsultar.Name = "buttonConsultar";
-            this.buttonConsultar.Size = new System.Drawing.Size(91, 22);
-            this.buttonConsultar.TabIndex = 16;
-            this.buttonConsultar.Text = "Consultar";
-            this.buttonConsultar.UseVisualStyleBackColor = false;
-            this.buttonConsultar.Click += new System.EventHandler(this.buttonConsultar_Click);
+            this.dataGridViewVentas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewVentas_CellContentClick);
             // 
             // id
             // 
@@ -149,12 +112,53 @@
             this.Total.HeaderText = "Total";
             this.Total.Name = "Total";
             // 
+            // textBoxTotalVentas
+            // 
+            this.textBoxTotalVentas.Location = new System.Drawing.Point(494, 434);
+            this.textBoxTotalVentas.Name = "textBoxTotalVentas";
+            this.textBoxTotalVentas.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTotalVentas.TabIndex = 6;
+            // 
+            // labelFecha
+            // 
+            this.labelFecha.AutoSize = true;
+            this.labelFecha.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFecha.Location = new System.Drawing.Point(90, 139);
+            this.labelFecha.Name = "labelFecha";
+            this.labelFecha.Size = new System.Drawing.Size(44, 14);
+            this.labelFecha.TabIndex = 7;
+            this.labelFecha.Text = "Fecha";
+            // 
+            // buttonTotalVentas
+            // 
+            this.buttonTotalVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
+            this.buttonTotalVentas.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonTotalVentas.Location = new System.Drawing.Point(347, 428);
+            this.buttonTotalVentas.Name = "buttonTotalVentas";
+            this.buttonTotalVentas.Size = new System.Drawing.Size(136, 30);
+            this.buttonTotalVentas.TabIndex = 15;
+            this.buttonTotalVentas.Text = "Total Ventas";
+            this.buttonTotalVentas.UseVisualStyleBackColor = false;
+            this.buttonTotalVentas.Click += new System.EventHandler(this.buttonTotalVentas_Click_1);
+            // 
+            // buttonConsultar
+            // 
+            this.buttonConsultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
+            this.buttonConsultar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonConsultar.Location = new System.Drawing.Point(346, 139);
+            this.buttonConsultar.Name = "buttonConsultar";
+            this.buttonConsultar.Size = new System.Drawing.Size(91, 22);
+            this.buttonConsultar.TabIndex = 16;
+            this.buttonConsultar.Text = "Consultar";
+            this.buttonConsultar.UseVisualStyleBackColor = false;
+            this.buttonConsultar.Click += new System.EventHandler(this.buttonConsultar_Click);
+            // 
             // RegistroVentasPorDia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(800, 472);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
+            this.ClientSize = new System.Drawing.Size(703, 472);
             this.Controls.Add(this.buttonConsultar);
             this.Controls.Add(this.buttonTotalVentas);
             this.Controls.Add(this.labelFecha);

@@ -48,6 +48,7 @@
             this.label1.Size = new System.Drawing.Size(82, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "USUARIO";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -76,7 +77,7 @@
             // 
             // buttoningresar
             // 
-            this.buttoningresar.BackColor = System.Drawing.Color.Pink;
+            this.buttoningresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttoningresar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttoningresar.Location = new System.Drawing.Point(120, 343);
             this.buttoningresar.Name = "buttoningresar";
@@ -88,7 +89,7 @@
             // 
             // buttoncerrar
             // 
-            this.buttoncerrar.BackColor = System.Drawing.Color.Pink;
+            this.buttoncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttoncerrar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttoncerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttoncerrar.Location = new System.Drawing.Point(259, 343);
@@ -105,6 +106,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(12, 28);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(424, 120);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -112,7 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
             this.ClientSize = new System.Drawing.Size(444, 397);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttoncerrar);

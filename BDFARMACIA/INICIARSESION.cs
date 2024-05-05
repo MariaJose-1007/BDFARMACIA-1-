@@ -44,15 +44,33 @@ namespace BDFARMACIA
         }
         public void ingresar()
         {
-            String sql1 = String.Format(@"select Usuario,Contraseña from usuarios where Usuario='" + textBoxusuario.Text + "' and Contraseña='" + textBoxcontraseña.Text + "'");
+            String sql1 = String.Format(@"SELECT Usuario, Contraseña, Rol FROM usuarios WHERE Usuario = '{0}' AND Contraseña = '{1}'", textBoxusuario.Text, textBoxcontraseña.Text);
             DataRow fila = conMysql.getRow(sql1);
+
+
             if (fila != null)
             {
+                string rol = fila["Rol"].ToString();
                 MessageBox.Show(" BIENVENID@ A FARMACIAS MJL :) " + textBoxusuario.Text + "");
-                MenuPrincipal abrir = new MenuPrincipal();
-                abrir.Show();
-                this.Hide();
+                //MenuPrincipal abrir = new MenuPrincipal();
+                // abrir.Show();
+                //this.Hide();
+
+                // Verificar el rol para determinar qué formulario abrir
+                if (rol == "Administrador")
+                {
+                    MenuPrincipal abrir = new MenuPrincipal();
+                    abrir.Show();
+                    this.Hide();
+                }
+                else if (rol == "Vendedor")
+                {
+                    MenuVendedores abrir = new MenuVendedores();
+                    abrir.Show();
+                    this.Hide();
+                }
             }
+
 
             else
             {
@@ -62,6 +80,11 @@ namespace BDFARMACIA
         }
 
         private void textBoxusuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

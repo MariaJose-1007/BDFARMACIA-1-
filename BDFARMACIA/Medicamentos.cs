@@ -35,12 +35,13 @@ namespace BDFARMACIA
             listView1.Columns.Add("Precio", 120, HorizontalAlignment.Left);
             listView1.Columns.Add("Cantidad en Existencia", 120, HorizontalAlignment.Left);
 
-            
+           
             conMysql.Connect();
             String sql = "select id, producto from productos";
             conMysql.CargarCombo(comboBoxproductos, sql, "Producto", "id");
             conMysql.CargarCombo(comboBox1productosedit, sql, "Producto", "id");
-            
+
+            textBoxcodigob.KeyDown += textBoxcodigob_KeyDown_1;
         }
 
         public void limpiar()
@@ -183,6 +184,34 @@ namespace BDFARMACIA
         }
 
 
+       
+        private void textBoxcodigob_KeyDown_1(object sender, KeyEventArgs e)
+        {
+            // Verificar si se presionó la tecla Enter (código de barras escaneado)
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Obtener el texto escaneado del textBoxcodigob
+                string codigoBarrasEscaneado = textBoxcodigob.Text.Trim();
+
+                // Consultar la base de datos para obtener el producto correspondiente al código de barras escaneado
+                string sqlConsulta = $"SELECT Producto FROM productos WHERE Codigo_Barra = '{codigoBarrasEscaneado}'";
+                string nombreProducto = conMysql.GetScalar<string>(sqlConsulta);
+
+                if (!string.IsNullOrEmpty(nombreProducto))
+                {
+                    // Asignar el nombre del producto al textBoxproducto
+                    textBoxproducto.Text = nombreProducto;
+                    textBoxprecio.Text = "";
+                    textBoxcantidad.Text = "";
+                }
+                else
+                {
+                    MessageBox.Show("No se encontró el producto correspondiente al código de barras escaneado.");
+                }
+            }
+        }
+
+
 
 
 
@@ -243,5 +272,6 @@ namespace BDFARMACIA
         {
 
         }
+
     }
 }

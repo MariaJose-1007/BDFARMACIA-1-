@@ -36,7 +36,7 @@ namespace BDFARMACIA
             dataGridViewVentas.Rows.Clear();
 
             // Consultar la base de datos para obtener las ventas realizadas en la fecha especificada
-            string sql= "SELECT * FROM factura WHERE Fecha = '" + fecha.ToString("yyyy-MM-dd") + "'";
+            string sql = "SELECT * FROM factura WHERE Fecha = '" + fecha.ToString("yyyy-MM-dd") + "'";
 
             DataTable dt = conMysql.getData(sql);
 
@@ -82,7 +82,7 @@ namespace BDFARMACIA
             textBoxTotalVentas.Text = totalVentas.ToString("C");
         }
 
-     
+
         private void dateTimePickerFecha_ValueChanged(object sender, EventArgs e)
         {
             // Cuando cambia la fecha seleccionada, mostrar las ventas para esa fecha
@@ -116,8 +116,15 @@ namespace BDFARMACIA
             // Llamar al método MostrarVentasPorDia con la fecha obtenida
             MostrarVentasPorDia(fecha);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewVentas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
-
-
-

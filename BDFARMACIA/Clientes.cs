@@ -177,5 +177,10 @@ namespace BDFARMACIA
         {
 
         }
+
+        private void textBoxnombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

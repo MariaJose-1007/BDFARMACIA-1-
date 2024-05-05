@@ -154,3 +154,4 @@ C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\BouncyCastle.Cryp
 C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\itextsharp.dll
 C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\bin\Debug\itextsharp.xml
+C:\Users\coros\source\repos\BDFARMACIA-1-\BDFARMACIA\obj\Debug\BDFARMACIA.MenuVendedores.resources

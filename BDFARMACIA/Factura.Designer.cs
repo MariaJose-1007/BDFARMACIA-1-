@@ -56,9 +56,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(29, -4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(395, 101);
+            this.pictureBox1.Size = new System.Drawing.Size(410, 119);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -66,18 +67,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(488, 27);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(72)))), ((int)(((byte)(107)))));
+            this.label1.Location = new System.Drawing.Point(497, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 30);
+            this.label1.Size = new System.Drawing.Size(227, 30);
             this.label1.TabIndex = 2;
-            this.label1.Text = "FACTURA DE COMPRA";
+            this.label1.Text = "TICKET DE COMPRA";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(430, 113);
+            this.label3.Location = new System.Drawing.Point(28, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 14);
             this.label3.TabIndex = 4;
@@ -88,7 +89,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(23, 133);
+            this.label4.Location = new System.Drawing.Point(26, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 14);
             this.label4.TabIndex = 5;
@@ -97,9 +98,9 @@
             // comboBoxcliente
             // 
             this.comboBoxcliente.FormattingEnabled = true;
-            this.comboBoxcliente.Location = new System.Drawing.Point(94, 133);
+            this.comboBoxcliente.Location = new System.Drawing.Point(97, 180);
             this.comboBoxcliente.Name = "comboBoxcliente";
-            this.comboBoxcliente.Size = new System.Drawing.Size(313, 21);
+            this.comboBoxcliente.Size = new System.Drawing.Size(204, 21);
             this.comboBoxcliente.TabIndex = 8;
             this.comboBoxcliente.SelectedIndexChanged += new System.EventHandler(this.comboBoxcliente_SelectedIndexChanged);
             // 
@@ -107,7 +108,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(26, 187);
+            this.label5.Location = new System.Drawing.Point(29, 228);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 14);
             this.label5.TabIndex = 9;
@@ -117,7 +118,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(399, 170);
+            this.label6.Location = new System.Drawing.Point(30, 266);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(102, 14);
             this.label6.TabIndex = 10;
@@ -127,28 +128,29 @@
             // comboBoxproducto
             // 
             this.comboBoxproducto.FormattingEnabled = true;
-            this.comboBoxproducto.Location = new System.Drawing.Point(94, 184);
+            this.comboBoxproducto.Location = new System.Drawing.Point(97, 225);
             this.comboBoxproducto.Name = "comboBoxproducto";
-            this.comboBoxproducto.Size = new System.Drawing.Size(229, 21);
+            this.comboBoxproducto.Size = new System.Drawing.Size(204, 21);
             this.comboBoxproducto.TabIndex = 12;
             this.comboBoxproducto.SelectedIndexChanged += new System.EventHandler(this.comboBoxproducto_SelectedIndexChanged);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(189)))), ((int)(((byte)(154)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 219);
+            this.dataGridView1.Location = new System.Drawing.Point(320, 137);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(551, 219);
+            this.dataGridView1.Size = new System.Drawing.Size(602, 239);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // buttonagregar
             // 
-            this.buttonagregar.BackColor = System.Drawing.Color.Pink;
+            this.buttonagregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonagregar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonagregar.Location = new System.Drawing.Point(569, 173);
+            this.buttonagregar.Location = new System.Drawing.Point(97, 307);
             this.buttonagregar.Name = "buttonagregar";
-            this.buttonagregar.Size = new System.Drawing.Size(136, 41);
+            this.buttonagregar.Size = new System.Drawing.Size(135, 28);
             this.buttonagregar.TabIndex = 14;
             this.buttonagregar.Text = "Agregar al carrito";
             this.buttonagregar.UseVisualStyleBackColor = false;
@@ -156,11 +158,11 @@
             // 
             // buttontotalcompra
             // 
-            this.buttontotalcompra.BackColor = System.Drawing.Color.Pink;
+            this.buttontotalcompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttontotalcompra.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttontotalcompra.Location = new System.Drawing.Point(569, 271);
+            this.buttontotalcompra.Location = new System.Drawing.Point(33, 341);
             this.buttontotalcompra.Name = "buttontotalcompra";
-            this.buttontotalcompra.Size = new System.Drawing.Size(122, 43);
+            this.buttontotalcompra.Size = new System.Drawing.Size(152, 31);
             this.buttontotalcompra.TabIndex = 15;
             this.buttontotalcompra.Text = "Total de la compra";
             this.buttontotalcompra.UseVisualStyleBackColor = false;
@@ -168,7 +170,7 @@
             // 
             // textBoxtotal
             // 
-            this.textBoxtotal.Location = new System.Drawing.Point(706, 283);
+            this.textBoxtotal.Location = new System.Drawing.Point(191, 347);
             this.textBoxtotal.Name = "textBoxtotal";
             this.textBoxtotal.Size = new System.Drawing.Size(110, 20);
             this.textBoxtotal.TabIndex = 16;
@@ -176,11 +178,11 @@
             // 
             // Guardar
             // 
-            this.Guardar.BackColor = System.Drawing.Color.Pink;
+            this.Guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.Guardar.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Guardar.Location = new System.Drawing.Point(569, 388);
+            this.Guardar.Location = new System.Drawing.Point(33, 378);
             this.Guardar.Name = "Guardar";
-            this.Guardar.Size = new System.Drawing.Size(78, 43);
+            this.Guardar.Size = new System.Drawing.Size(90, 25);
             this.Guardar.TabIndex = 17;
             this.Guardar.Text = "Guardar";
             this.Guardar.UseVisualStyleBackColor = false;
@@ -188,11 +190,11 @@
             // 
             // buttonsalir
             // 
-            this.buttonsalir.BackColor = System.Drawing.Color.Pink;
+            this.buttonsalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(134)))), ((int)(((byte)(134)))));
             this.buttonsalir.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonsalir.Location = new System.Drawing.Point(653, 388);
+            this.buttonsalir.Location = new System.Drawing.Point(129, 378);
             this.buttonsalir.Name = "buttonsalir";
-            this.buttonsalir.Size = new System.Drawing.Size(78, 43);
+            this.buttonsalir.Size = new System.Drawing.Size(78, 25);
             this.buttonsalir.TabIndex = 18;
             this.buttonsalir.Text = "Borrar";
             this.buttonsalir.UseVisualStyleBackColor = false;
@@ -200,27 +202,27 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(508, 113);
+            this.dateTimePicker1.Location = new System.Drawing.Point(97, 137);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(210, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(204, 20);
             this.dateTimePicker1.TabIndex = 19;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(711, 153);
+            this.pictureBox2.Location = new System.Drawing.Point(754, 22);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(105, 77);
+            this.pictureBox2.Size = new System.Drawing.Size(108, 77);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 20;
             this.pictureBox2.TabStop = false;
             // 
             // textBoxunidad
             // 
-            this.textBoxunidad.Location = new System.Drawing.Point(402, 187);
+            this.textBoxunidad.Location = new System.Drawing.Point(140, 266);
             this.textBoxunidad.Name = "textBoxunidad";
-            this.textBoxunidad.Size = new System.Drawing.Size(100, 20);
+            this.textBoxunidad.Size = new System.Drawing.Size(161, 20);
             this.textBoxunidad.TabIndex = 21;
             this.textBoxunidad.TextChanged += new System.EventHandler(this.textBoxunidad_TextChanged);
             this.textBoxunidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxunidad_KeyPress_1);
@@ -234,8 +236,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(828, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(219)))), ((int)(((byte)(168)))));
+            this.ClientSize = new System.Drawing.Size(937, 423);
             this.Controls.Add(this.textBoxunidad);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.dateTimePicker1);
